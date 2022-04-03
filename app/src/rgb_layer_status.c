@@ -28,13 +28,12 @@ void set_layer_colour()
     switch (active_layer_index)
     {
         case  4 : { colour.h = 150; break; }
-        case  5 :
+        case  5 : { colour.h = 180; break; }
         case  6 :
         case  7 : { colour.h = 300; break; }
-        case  8 :
-        case  9 : { colour.h = 240; break; }
-        case 10 : { colour.h =  40; break; }
-        case 11 : { colour.h =   0; break; }
+        case  8 : { colour.h = 240; break; }
+        case  9 : { colour.h =  20; break; }
+        case 10 : { colour.h =   0; break; }
         default : { colour.b =   0; break; }
     }
 
